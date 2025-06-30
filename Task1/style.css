@@ -159,3 +159,46 @@ footer {
   padding: 9px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .courses h2,
+  .features h2,
+  .pricing h2 {
+    font-size: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .pricing .card .btn {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
