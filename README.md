@@ -10,7 +10,7 @@ This repository contains all tasks completed as part of the **OIBSIP Web Develop
 A responsive and modern educational platform landing page.
 
 📂 [View Task 1 Folder](./Task1)  
-🔗 [Live Demo (GitHub Pages if deployed)](https://github.com/TanayRaundale/OIBSIP)  
+🔗 [Live Demo (GitHub Pages if deployed)](https://tanayraundale.github.io/OIBSIP/Task1)  
 📝 [Read Task 1 README](./Task1/README.md)
 
 ---
