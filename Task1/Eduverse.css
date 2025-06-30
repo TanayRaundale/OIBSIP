@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #0077ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right, #0077ff, #00c6ff);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero .btn {
+  background: white;
+  color: #0077ff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.courses,
+.features {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+
+/* Pricing Section Enhancements */
+.pricing {
+  padding: 60px 0;
+  background-color: #f0f4fa;
+}
+
+.pricing h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.pricing .card {
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Contrasting backgrounds */
+.pricing .card:nth-child(1) {
+  background-color: #e6f0ff; /* Light blue */
+}
+
+.pricing .card:nth-child(2) {
+  background-color: #fffbe6; /* Soft yellow */
+  border: 2px solid #facc15; /* Highlight */
+  transform: scale(1.03);
+}
+
+.pricing .card:nth-child(3) {
+  background-color: #e6fff2; /* Light green */
+}
+
+.pricing .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.pricing .card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.pricing .card p strong {
+  font-size: 1.3rem;
+  color: #0077ff;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.pricing ul li {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.pricing .card .btn {
+  margin-top: 20px;
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+
+footer {
+    margin-top: 20px;
+  background: #333;
+  color: #fff;
+  padding: 9px 0;
+  text-align: center;
+}

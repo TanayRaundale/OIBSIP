@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduTech | Innovation towards Teaching</title> <!-- Title of the page -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<!-- Header Section -->
+  <header>
+    <div class="container nav">
+      <h1 class="logo">EduVerse 📚</h1>
+      <nav>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#features">Features</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Enhance Your learning Skills </h2>
+      <p>Explore expert-curated courses to level up your skills anytime, anywhere.</p>
+      <a href="#" class="btn">Start Learning</a>
+    </div>
+  </section>
+
+  <section id="courses" class="courses">
+    <div class="container">
+      <h2><i class="fas fa-book-open"></i> Popular Courses</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JS, React and backend technologies to build full-stack apps.</p>
+        </div>
+        <div class="card">
+          <h3>Data Science</h3>
+          <p>Learn Python, Pandas, and machine learning to analyze real-world data.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud Computing</h3>
+          <p>Master AWS, DevOps, and cloud infrastructure fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="features" class="features">
+     <h2><i class="fas fa-star"></i> Why Choose Us?</h2>
+    <div class="container grid">
+       
+      <div class="card">
+        <h3>Self-paced Learning</h3>
+        <p>Learn at your own schedule, anytime anywhere.</p>
+      </div>
+      <div class="card">
+        <h3>Certificates</h3>
+        <p>Earn course completion certificates to boost your resume.</p>
+      </div>
+      <div class="card">
+        <h3>Community Support</h3>
+        <p>Join our student community, get help and stay motivated.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pricing Section -->
+<section id="pricing" class="pricing">
+    
+  <div class="container">
+    <h2><i class="fas fa-tags"></i> Pricing Plans</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Free</h3>
+        <p><strong>$0/mo</strong></p>
+        <ul>
+          <li>Access to 5 beginner courses</li>
+          <li>Community Support</li>
+          <li>Basic Certificate</li>
+        </ul>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+      <div class="card">
+        <h3>Pro</h3>
+        <p><strong>$9.99/mo</strong></p>
+        <ul>
+          <li>All Beginner + Advanced Courses</li>
+          <li>1-on-1 Mentor Sessions</li>
+          <li>Pro Certificate</li>
+        </ul>
+        <a href="#" class="btn">Upgrade</a>
+      </div>
+      <div class="card">
+        <h3>Ultimate</h3>
+        <p><strong>$19.99/mo</strong></p>
+        <ul>
+          <li>All Courses + Projects</li>
+          <li>Live Webinars & Workshops</li>
+          <li>Job Prep + Resume Reviews</li>
+        </ul>
+        <a href="#" class="btn">Go Ultimate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer id="contact">
+    <div class="container">
+      <p>Contact us at: support@eduverse.io</p>
+      <p>&copy; 2025 EduVerse. All rights reserved.</p>
+    </div>
+  </footer>
+<script>
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
+</script>
+</body>
+</html>
