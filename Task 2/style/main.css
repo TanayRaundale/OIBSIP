@@ -199,10 +199,15 @@ nav a.active, nav a:hover {
 
 .project-info h3 {
     margin: 0 0 8px 0;
-    color: inherit;
+    text-align: justify;
     font-size: 1.18rem;
 }
-
+.project-info p {
+    font-size: 0.98rem;
+    color: #4b5563;
+    margin-bottom: 16px;
+    text-align: justify;
+}
 .project-links {
     margin-top: 10px;
     display: flex;
